@@ -10,13 +10,13 @@ class StrongtubeVideoFinder {
 
 	private $videoName = "";
 	
-	private STRONGTUBE_DIR;
-	private STRONGTUBE_WEBM_DIR;
-	private STRONGTUBE_MP4_DIR;
-	private STRONGTUBE_OGV_DIR;
-	private PUBLIC_WEBM;
-	private PUBLIC_MP4;
-	private PUBLIC_OGV;
+	private $STRONGTUBE_DIR;
+	private $STRONGTUBE_WEBM_DIR;
+	private $STRONGTUBE_MP4_DIR;
+	private $STRONGTUBE_OGV_DIR;
+	private $PUBLIC_WEBM;
+	private $PUBLIC_MP4;
+	private $PUBLIC_OGV;
 	
 	function __construct($videoName, $strongtubeLocationBundle) {
 		$this->videoName = $videoName;
